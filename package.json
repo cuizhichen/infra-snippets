@@ -1,0 +1,33 @@
+{
+  "name": "infra-snippets",
+  "version": "0.0.1",
+  "description": "infra snippets",
+  "publisher": "smartX",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "snippets",
+    "infra"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexRen94/infra-snippets.git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "vue-html",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": "AlexRen",
+  "license": "MIT"
+}
