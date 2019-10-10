@@ -1,9 +1,23 @@
 {
-  "cinput": {
-    "prefix": "c-input",
+  "aside": {
+    "prefix": "caside",
+    "body": [
+      "<c-aside />"
+    ],
+    "description": "infra aside component"
+  },
+  "autocomplete": {
+    "prefix": "cautocomplete",
+    "body": [
+      "<c-autocomplete v-model='$1' placeholder='$2' />"
+    ],
+    "description": "infra autocomplete component"
+  },
+  "input": {
+    "prefix": "cinput",
     "body": [
       "<c-input v-model='$1'/>"
     ],
-    "description": "c-input"
+    "description": "infra input component"
   }
 }

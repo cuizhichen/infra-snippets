@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "icon": "img/logo.png",
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -15,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexRen94/infra-snippets.git"
+    "url": "https://gitlab.smartx.com/frontend/infra-snippets.git"
   },
   "contributes": {
     "snippets": [
@@ -28,6 +29,6 @@
   "categories": [
     "Snippets"
   ],
-  "author": "AlexRen",
+  "author": "smartX",
   "license": "MIT"
 }
