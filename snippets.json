@@ -9,9 +9,63 @@
   "autocomplete": {
     "prefix": "cautocomplete",
     "body": [
-      "<c-autocomplete v-model='$1' placeholder='$2' />"
+      "<c-autocomplete v-model='$1' placeholder='$2' suggestions='$3' />"
     ],
     "description": "infra autocomplete component"
+  },
+  "button": {
+    "prefix": "cbutton",
+    "body": [
+      "<c-button @click='${1:handleClick}' />"
+    ],
+    "description": "infra button component"
+  },
+  "buttongroup": {
+    "prefix": "cbuttongroup",
+    "body": [
+      "<c-button-group>",
+      "\t< c-button>$1</c-button>",
+      "\t< c-button>$1</c-button>",
+      "</c-button-group>"
+    ],
+    "description": "infra buttongroup component"
+  },
+  "card": {
+    "prefix": "ccard",
+    "body": [
+      "<c-card title='$1' subTitle='$2' icon='$3' />"
+    ],
+    "description": "infra card component"
+  },
+  "checkbox": {
+    "prefix": "ccheckbox",
+    "body": [
+      "<c-checkbox v-model='$1'>$2</c-checkbox>"
+    ],
+    "description": "infra checkbox component"
+  },
+  "checkboxgroup": {
+    "prefix": "ccheckboxgroup",
+    "body": [
+      "<c-checkbox-group v-model='$1'>$2</c-checkbox-group>"
+    ],
+    "description": "infra checkbox-group component"
+  },
+  "container": {
+    "prefix": "ccontainer",
+    "body": [
+      "<c-container direction='${1|horizontal,vertical|}'>",
+      "\t$2",
+      "</c-container>"
+    ],
+    "description": "infra container component"
+  },
+  "dropdown": {
+    "prefix": "cdropdown",
+    "body": [
+      "<c-dropdown v-model='$1' :options='$2' />"
+    ],
+    "description": "infra dropdown component"
   },
   "input": {
     "prefix": "cinput",

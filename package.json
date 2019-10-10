@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.smartx.com/frontend/infra-snippets.git"
+    "url": "https://github.com/AlexRen94/infra-snippets.git"
   },
   "contributes": {
     "snippets": [
